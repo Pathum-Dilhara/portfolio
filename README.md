@@ -1,7 +1,7 @@
 # 🚀 React CI/CD Deployment to AWS S3 with Terraform & GitHub Actions (Access Keys)
 This project demonstrates a **fully automated CI/CD pipeline** for deploying a Web application to an AWS S3 bucket using:
 
-##Architecture Diagram
+## Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/4c26a75b-e11f-4047-a414-f658c349467d)
 
@@ -10,7 +10,7 @@ This project demonstrates a **fully automated CI/CD pipeline** for deploying a W
 - **Terraform** → Infrastructure as Code (S3 bucket, IAM User, Access Keys)
 - **GitHub Actions** → CI/CD using stored AWS access keys
   
-##🖼 Example CI/CD Flow Diagram
+## 🖼 Example CI/CD Flow Diagram
 ```
 [ Developer Push ]
         ↓
@@ -20,7 +20,7 @@ This project demonstrates a **fully automated CI/CD pipeline** for deploying a W
         ↓
 [ Website Updated ]
 ```
-##🌐 Access your website
+## 🌐 Access your website
 ```
 http://<bucket-name>.s3-website-<region>.amazonaws.com
 ```
